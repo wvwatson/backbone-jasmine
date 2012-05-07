@@ -9,9 +9,9 @@ Add this line to your application's Gemfile:
     gem 'backbone-on-rails'
     gem 'jasmine', :git => "git://github.com/pivotal/jasmine-gem.git", :ref => "34c1529c3f7"
 
-The jasmine git reference is needed because the current version of jasmine seems to have problems with the asset pipelint.  The reference fixes this problem.
+The jasmine git reference is needed because the current version of jasmine seems to have problems with the asset pipeline.  The reference fixes this problem.
 
-And then execute:
+You should then execute:
 
     $ bundle
 
@@ -21,12 +21,16 @@ Or install it yourself as:
 
 ## Usage
 
-#To create a basic directory structure
-rails g backbone_jasmine:install
+### To create a basic directory structure
+
+    rails g backbone_jasmine:install
+
 Follow the instructions listed.  You'll need to edit your application.js file
 If you have any wierd js that is not in your asset pipeline, you'll need to add it to your jasmine.yml file manually
 
-Rails g will print all of your generator commands, including backbone_jasmine
+    Rails g 
+
+will print all of your generator commands, including backbone_jasmine
 
 ## Contributing
 
