@@ -25,12 +25,13 @@ Or install it yourself as:
 
     rails g backbone_jasmine:install
 
-Follow the instructions listed.  You'll need to edit your application.js file
-If you have any wierd js that is not in your asset pipeline, you'll need to add it to your jasmine.yml file manually
+Follow the instructions listed during the install.  You'll need to edit your application.js file
+If you have any weird js that is not in your asset pipeline, you'll need to add it to your jasmine.yml file manually
+Right now there only models and collections are generated.  More to come.
 
     Rails g 
 
-will print all of your generator commands, including backbone_jasmine
+will print all of your generator commands, including those for backbone_jasmine
 
 ## Contributing
 
